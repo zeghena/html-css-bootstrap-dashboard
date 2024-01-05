@@ -88,5 +88,20 @@
 }
 
 .main-content .content .panels {
-  padding: 20px;
+}
+
+.main-content .content .panels .row .card {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.card .list-group-item img {
+  width: 20px;
+}
+
+.card .table img {
+  width: 20px;
+}
+.card .table thead tr th:first-child {
+  width: 50%;
 }
